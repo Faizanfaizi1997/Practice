@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Top Header Start */
+header{
+    color: #fff;
+    background-color: #00283A;
+    padding: 20px;
+}
+header .icons{
+    float: right;
+    color: #fff;
+}
+header .icons a .fa-linkedin-in{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #017EB4;
+}
+header .icons .fa-linkedin-in:hover{
+    color: #017EB4;
+    background-color: #fff;
+}
+header .icons a .fa-facebook-f{
+    font-size: 18px;
+    padding: 10px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3A559F;
+}
+header .icons .fa-facebook-f:hover{
+    color: #3A559F;
+    background-color: #fff;
+}
+header .icons a .fa-whatsapp{
+    font-size: 18px;
+    padding: 10px 11px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00E676;
+}
+header .icons .fa-whatsapp:hover{
+    color: #00E676;
+    background-color: #fff;
+}
+/* Top Header End */
