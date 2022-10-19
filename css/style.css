@@ -7,48 +7,37 @@ html{
     text-decoration: none;
 }
 
-/* Top Header Start */
-header{
-    color: #fff;
+/* Navbar Style Start */
+nav.bg-nav{
     background-color: #00283A;
-    padding: 20px;
 }
-header .icons{
-    float: right;
+nav .navbar-brand{
     color: #fff;
+    font-family: forte;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    transition: all ease-in-out 0.3s;
 }
-header .icons a .fa-linkedin-in{
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 5px;
+nav .navbar-brand:hover{
+    color: #AFB42B;
+}
+nav .navbar-nav .nav-item .nav-link{
+    padding: 20px 15px;
+    text-decoration: none;
     color: #fff;
-    background-color: #017EB4;
+    background-image: linear-gradient(#AFB42B, #AFB42B), linear-gradient(#00283A, #00283A);
+    background-size: 0 3px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
 }
-header .icons .fa-linkedin-in:hover{
-    color: #017EB4;
-    background-color: #fff;
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: #AFB42B;
+    background-size: 100% 3px, auto;
 }
-header .icons a .fa-facebook-f{
-    font-size: 18px;
-    padding: 10px 12px;
-    margin: 0 5px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #3A559F;
+.navbar-nav .nav-link.active{
+    color: #AFB42B;
+    background-size: 100% 3px, auto;
 }
-header .icons .fa-facebook-f:hover{
-    color: #3A559F;
-    background-color: #fff;
-}
-header .icons a .fa-whatsapp{
-    font-size: 18px;
-    padding: 10px 11px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #00E676;
-}
-header .icons .fa-whatsapp:hover{
-    color: #00E676;
-    background-color: #fff;
-}
-/* Top Header End */
+/* Navbar Style End */

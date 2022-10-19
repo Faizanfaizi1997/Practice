@@ -18,50 +18,58 @@
 
     <!-- Custom Css -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
 
     <!-- Custom JS -->
     <script src="js/add-on.js"></script>
 
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     
-    <!-- Top Header Start -->
-    <header>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-nav sticky-top">
         <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 align-self-center">
-                    <h6 class="mb-0">Welcome To <span class="auto-type"></span></h6>
-                </div>
-
-                <div class="col-md-8 align-self-center">
-                    <div class="icons">
-                        <a href="https://www.linkedin.com">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://www.facebook.com">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.web.whatsapp.com">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
-                </div>
-
+            <a class="navbar-brand" href="./practice.html">MFS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section4">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section5">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
-    <!-- Top Header End -->
+    </nav>
+    <!-- Navbar End -->
+
+    
+
+    
 
     <!-- Typing Script Start -->
+    <!-- <h6 class="mb-0">Welcome To <span class="auto-type"></span></h6>
     <script>
         var typed = new Typed(".auto-type", {
             strings: ["Website", "MSF Site"],
-            typeSpeed: 100,
-            backSpeed: 150,
+            typeSpeed: 150,
+            backSpeed: 80,
             loop: true
         });
-    </script>
+    </script> -->
     <!-- Typing Script End -->
 
 </body>
